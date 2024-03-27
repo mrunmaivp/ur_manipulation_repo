@@ -13,7 +13,7 @@ motion_generator_library is the main package handling motions in joint space and
                 In the second termina, run - roslaunch motion_generator_library task2.launch
 
    ii) orocos kdl - To run this, launch the gazebo in the first terminal and in the second terminal, run - roslaunch ur_move ur_cartesian_motion_node
-                     (This approach is not working , hence MoveIt is used for creating motion library)
+                     (This approach is not planning the motion properly , hence MoveIt is used for creating motion library)
 
 3) A python API based on the motion library is created. For establishing communication between C++ library and the python API, a custom service is created.
    Service is advertised with a motion_library_wrapper_node written in C++ and the service client is written as a python script, acting as API.
