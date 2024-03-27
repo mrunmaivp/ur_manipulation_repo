@@ -3,4 +3,4 @@ of the code and suggesting different ways of writing code.
 Motion library can be benefited with the help of LLM by carrying out promt or description based input to the LLMs.
 
 LLM can act as an interface between the user and the Python API which is based on the motion-library. The communication interface for this can be given as -
-![Alt text](image link)
+![Alt High Level Architecture](https://github.com/mrunmaivp/ur_manipulation_repo/blob/main/Picture1.png)
