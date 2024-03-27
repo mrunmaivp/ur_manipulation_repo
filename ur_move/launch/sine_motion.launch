@@ -1,4 +1,0 @@
-<launch>
-<node pkg="ur_move" name="ur_publish_joint_states" type="sine_motion.py" output="screen">
-</node>
-</launch>
