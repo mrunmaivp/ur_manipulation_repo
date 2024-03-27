@@ -1,1 +1,6 @@
-Large Language Models (LLM) can be used for generating data based on required components.
+Large Language Models (LLM) can be used for generating data based on required inputs. This generative capability of LLM's can be extended for autocompleting certain blocks
+of the code and suggesting different ways of writing code.
+Motion library can be benefited with the help of LLM by carrying out promt or description based input to the LLMs.
+
+LLM can act as an interface between the user and the Python API which is based on the motion-library. The communication interface for this can be given as -
+![Alt text](image link)
