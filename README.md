@@ -17,7 +17,10 @@ motion_generator_library is the main package handling motions in joint space and
 
 3) A python API based on the motion library is created. For establishing communication between C++ library and the python API, a custom service is created.
    Service is advertised with a motion_library_wrapper_node written in C++ and the service client is written as a python script, acting as API.
+
    In the first terminal, start gazebo node with - roslaunch ur_gazebo ur5_bringup
+
    In the second terminal, start the MoveIt and service server with - roslaunch motion_generator_library task3.launch
+
    In the third terminal, run the python API with - rosrun motion_generator_library robot_motion_api.py
         
