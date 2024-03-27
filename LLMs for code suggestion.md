@@ -13,7 +13,7 @@ For implementing this, open-source libraries like openai or transformers can be 
 is provided as input. And the response is generated with the help of state of the art Large Languge Model by providing promt, maximum number of words (tokens) to be 
 generated. Along with this, number of suggestions is also a parameter. 
 
-<img src="https://github.com/mrunmaivp/ur_manipulation_repo/blob/main/Architecture.png" alt="Architecture" width="1000" height="150">
+<img src="https://github.com/mrunmaivp/ur_manipulation_repo/blob/main/Architecture.png" alt="Architecture" width="900" height="150">
 
 
 
