@@ -1,0 +1,6 @@
+<launch>
+<include file="$(find ur_gazebo)/launch/ur5_bringup.launch"/>-
+
+<node name="cartesian_pose_node" pkg="motion_generator_library" type="kdl_cartesian_motion_node" output="screen"/>
+
+</launch>

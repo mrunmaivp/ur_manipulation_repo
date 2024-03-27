@@ -1,0 +1,8 @@
+<launch>
+<!--<include file="$(find ur_gazebo)/launch/ur5_bringup.launch"/>-->
+
+<include file="$(find ur5_moveit_config)/launch/ur5_gazebo.launch"/>
+
+<node name="motion_display_node" pkg="motion_generator_library" type="motion_execution_node" output="screen"/>
+
+</launch>

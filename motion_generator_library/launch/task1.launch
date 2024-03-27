@@ -1,0 +1,8 @@
+<launch>
+<include file="$(find ur_gazebo)/launch/ur5_bringup.launch"/>
+
+<!--<include file="$(find ur5_moveit_config)/launch/ur5_gazebo.launch"/>-->
+
+<node name="ur_publish_joint_states" pkg="motion_generator_library" type="joint_motion_sine.py" output="screen"/>
+
+</launch>

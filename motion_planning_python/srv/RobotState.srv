@@ -1,0 +1,4 @@
+bool read_robot_state
+---
+float64[] joint_positions
+bool success
