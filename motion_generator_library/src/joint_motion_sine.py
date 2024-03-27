@@ -18,7 +18,6 @@ def publish_joint_states():
         point = JointTrajectoryPoint()
         time = rospy.Time.now().to_sec()
 
-        # Generate sine wave values for joint positions
         j1 = math.sin(time * 0.1)
         j2 = math.sin(time * 0.2)
         j3 = math.sin(time * 0.3)
