@@ -6,7 +6,7 @@ int main(int argc, char** argv) {
     ros::init(argc, argv, "motion_display_node");
     ros::NodeHandle nh;
 
-    std::string type_of_motion = "cartesian";
+    std::string type_of_motion = "joint";
     MotionGenerator motionGenerator;
 
     std::vector<double> jointPoint1 = {0.0, -1.57, 1.57, 0.0, 0.0, 0.0};
