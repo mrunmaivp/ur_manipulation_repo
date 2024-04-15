@@ -26,8 +26,8 @@ def publish_joint_states():
         j6 = math.sin(time * 0.6)
 
         point.positions = [j1, j2, j3, j4, j5, j6]
-        point.velocities = [0, 0, 0, 0, 0, 0]  # Set velocities to zero for simplicity
-        point.accelerations = [0, 0, 0, 0, 0, 0]  # Set accelerations to zero for simplicity
+        point.velocities = [0, 0, 0, 0, 0, 0] 
+        point.accelerations = [0, 0, 0, 0, 0, 0] 
         point.effort = []
 
         point.time_from_start = rospy.Duration(1)
